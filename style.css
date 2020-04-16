@@ -1,0 +1,169 @@
+/* Header stuffs */
+#storeName {
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bold;
+  font-size: 4vh;
+  color: #f27405;
+}
+#storeDesc {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 1.5vh;
+  color: #7f24a6;
+  text-shadow: none;
+}
+.headerRow {
+  display: flex;
+  /*align-items: flex-start;*/
+}
+div a {
+  /*for contact infor*/
+  font-size: 2vh;
+}
+.hleft {
+  float: left;
+  flex: 1;
+}
+.hright {
+  flex: 10;
+}
+.hleft img {
+  height: 15vh;
+}
+div a {
+  text-decoration: none;
+}
+/* Navigation/side bar stuffs*/
+ul {
+  list-style-type: none;
+  overflow: hidden;
+}
+li {
+  padding: 1vw;
+}
+li a {
+  color: #f27405;
+  text-decoration: none;
+}
+li:hover {
+  background-color: #072326;
+  border-bottom-left-radius: 1vw;
+  border-top-left-radius: 1vw;
+}
+li a:hover {
+  color: white;
+}
+li a:visited {
+  color: F27405;
+  background-color: #218da6;
+}
+#logo {
+  float: left;
+}
+* {
+  box-sizing: border-box;
+}
+
+/* Page layout */
+.row {
+  overflow: auto;
+  display: flex;
+}
+.left {
+  flex: 2;
+  background-color: #124c59;
+}
+
+.right {
+  padding: 20px;
+  flex: 10;
+  background-color: #218da6;
+}
+
+.row:after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+/* Store layout */
+.content {
+  display: flex;
+}
+.photo {
+  flex: 2;
+  overflow: hidden;
+  order: 1;
+  width: 30%;
+}
+.photo img {
+  width: 100%;
+  padding: 10%;
+}
+.info {
+  flex: 6;
+  order: 2;
+}
+p {
+  font-size: 2vh;
+}
+h2 {
+  font-size: 3vh;
+  color: #7f24a6;
+  text-shadow: 2px 2px 4px #fff;
+  font-family: Georgia;
+}
+h3 {
+  font-size: 2vh;
+  font-family: Courier;
+}
+
+/* Footer stuffs */
+footer {
+  background-color: #072326;
+}
+.foot {
+  font-size: 2vh;
+  color: #f27405;
+}
+
+button[type='subscribe'] {
+  background-color: #7f24a6;
+  color: white;
+}
+label[for^='email'] {
+  color: #7f24a6;
+  font-size: 2vh;
+}
+
+/* Contact CSS*/
+input[type='text'],
+input[id='cemail'],
+input[id='nphone'],
+select,
+textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type='submit'],
+input[type='reset'] {
+  background-color: #f27405;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 600px) {
+  .hleft {
+    float: left;
+    flex: 1;
+  }
+  .hright {
+    flex: 10;
+  }
+}
