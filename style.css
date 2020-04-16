@@ -2,12 +2,12 @@
 #storeName {
   font-family: 'Courier New', Courier, monospace;
   font-weight: bold;
-  font-size: 4vh;
+
   color: #f27405;
 }
 #storeDesc {
   font-family: 'Courier New', Courier, monospace;
-  font-size: 1.5vh;
+
   color: #7f24a6;
   text-shadow: none;
 }
@@ -15,10 +15,7 @@
   display: flex;
   /*align-items: flex-start;*/
 }
-div a {
-  /*for contact infor*/
-  font-size: 2vh;
-}
+
 .hleft {
   float: left;
   flex: 1;
@@ -104,16 +101,16 @@ li a:visited {
   order: 2;
 }
 p {
-  font-size: 2vh;
+
 }
 h2 {
-  font-size: 3vh;
+
   color: #7f24a6;
   text-shadow: 2px 2px 4px #fff;
   font-family: Georgia;
 }
 h3 {
-  font-size: 2vh;
+
   font-family: Courier;
 }
 
@@ -122,7 +119,7 @@ footer {
   background-color: #072326;
 }
 .foot {
-  font-size: 2vh;
+
   color: #f27405;
 }
 
@@ -132,7 +129,7 @@ button[type='subscribe'] {
 }
 label[for^='email'] {
   color: #7f24a6;
-  font-size: 2vh;
+
 }
 
 /* Contact CSS*/
