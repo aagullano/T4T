@@ -104,6 +104,7 @@ li a:visited {
   order: 2;
 }
 p {
+  font-family: 'Times New Roman', Times, serif;
   font-size: 2vh;
 }
 h2 {
