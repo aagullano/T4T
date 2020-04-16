@@ -4,7 +4,7 @@ function clearerrors() {
 
 function orderNo() {
   //Create Label
-  if (document.getElementById('orderProb').checked == true) {
+  if (document.sign_in.wquery[2].checked == true) {
     var x = document.createElement('label');
     x.setAttribute('for', 'orderNo');
     x.setAttribute('id', 'orderNoLabel');
